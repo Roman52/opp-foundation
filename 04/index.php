@@ -10,10 +10,11 @@ error_reporting(-1);
 
 require_once 'classes/Car.php';
 
-$car1 = new Car('Черный', 4, 180, 'Volvo');
+$car1 = new Car('Черный', 4, 180, 'volvo');
 
-$car2 = new Car('Белый', 4, 200, 'BMW');
+$car2 = new Car('Черный', 4, 200, 'bmw');
 
 echo $car1->getCarInfo();
 echo $car2->getCarInfo();
 
+echo $car1->getText();
