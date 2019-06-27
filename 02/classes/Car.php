@@ -8,7 +8,7 @@ class Car
 	public $color;
 	public $wheels = 4;
 	public $speed = 180;
-	// var $brand; можно иногда встретить -устаревшая фигня = public
+	// var $brand; можно иногда встретить - устаревшая фигня = public
 
 
 	//канкатенацию можно узать в свойствах класса с версии php 5.6

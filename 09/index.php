@@ -1,7 +1,8 @@
 <?php 
-
 /*
-Мы расширили класс Product классом BoodProduct (class BookProduct extends Product) также мы можем и далее по цепочке расширять BookProduct и другими классами (class BookProduct1 extends BookProduct) и т.д.
+урок №9 Модификаторы доступа 
+
+Мы расширили класс Product классом BookProduct (class BookProduct extends Product) также мы можем и далее по цепочке расширять BookProduct и другими классами (class BookProduct1 extends BookProduct) и т.д.
 
 Области видимости или модификаторы: (public, protected, private) - появились с php 5
 Они не предназначены для защиты кода от взлома. Предназначены для контроля вашего кода. Если не шаришь - просто ставь везде public.

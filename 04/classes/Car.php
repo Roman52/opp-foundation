@@ -18,10 +18,10 @@ __construct и __destruct - пишем в начале класса всегда
 class Car
 {
 	//определяем свойства класса
-	public $color;
-	public $wheels;
-	public $speed = 180;
-	public $brand; 
+	// public $color;
+	// public $wheels;
+	// public $speed = 180;
+	// public $brand; 
 
 	/*
 	Это классическое использование конструктора. Когда мы получаем в метод(функцию) аргументы ('Черный', 4, 180, 'volvo') и в конструкторе делаем $this->color = $color - пришедшую на вход переменную делаем свойством ТЕКУЩЕГО экземпляра
