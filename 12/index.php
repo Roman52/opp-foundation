@@ -46,9 +46,9 @@ $laptop = new LaptopProduct('Macbook', 3000);
 ----------------------------------------Проблема с прямым и обратным слешем-------------------------------------------
 
 Если посмотреть на путь в автозагрузчике то увидим G:\OpenServer\OSPanel\domains\php.loc\12/classes\BookProduct.php - разные слэши.
-Винде по фиг она работает с обоими видами слешей в пути, а вот линукс
+Винде по фиг она работает с обоими видами слешей в пути, а вот линукс требует \ обратный слеш обязательно.
 
-
+ Поэтому в функции автозагрузки нужно заюзать замену php.loc\12/classes\BookProduct.php на php.loc\12/classes/BookProduct.php. Для этого юзаем $class = str_replace("\\", '/', $class); в функции автозагрузки.
 
 */
 
@@ -59,18 +59,11 @@ use classes\interfaces\I3D;
 
 error_reporting(-1);
 
-//require_once 'classes/Product.php';
-//require_once 'classes/I3d.php';
-//require_once 'classes/IGadget.php';
-//require_once 'classes/LaptopProduct.php';
-//require_once 'classes/BookProduct.php';
-
 function autoloader1($class) {
 
+	$class = str_replace("\\", '/', $class);
 
-	echo $file = __DIR__ . "/{$class}.php"; //теперь здесь пишем только имя класса, весь остальной путь берется из namespace.
-	exit;
-
+	$file = __DIR__ . "/{$class}.php"; //теперь здесь пишем только имя класса, весь остальной путь берется из namespace.
     if ( file_exists($file) ) {
         require_once $file;
     }

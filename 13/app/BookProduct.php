@@ -1,5 +1,10 @@
 <?php
 
+namespace app;
+
+use rz_core\interfaces\I3D;
+use rz_core\Product;
+
 class BookProduct extends Product implements I3D {
 	public $numPages;
 
@@ -8,6 +13,8 @@ class BookProduct extends Product implements I3D {
 		parent::__construct($name, $price);
 		$this->numPages = $numPages;
 		$this->setDiscount(5);
+
+		var_dump(self::class);
 	}
 
 	public function getProduct() {

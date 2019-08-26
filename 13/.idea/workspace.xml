@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce4e90bf-b30d-4655-8ec4-ce2e42c1ca75" name="Default Changelist" comment="" />
+    <list default="true" id="fa50ac51-c6bc-4e0e-860b-cb28b3a6e646" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
-  <component name="ProjectId" id="1PvBRC0D8lzQlRXqVQ15H34BkiB" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/rz_core/interfaces" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1PxrT38e2d6c9z0J0i2qb4sCqNf" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\OpenServer\OSPanel\domains\php.loc\13\vendor\rz_core" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,14 +50,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce4e90bf-b30d-4655-8ec4-ce2e42c1ca75" name="Default Changelist" comment="" />
-      <created>1566744678156</created>
+      <changelist id="fa50ac51-c6bc-4e0e-860b-cb28b3a6e646" name="Default Changelist" comment="" />
+      <created>1566826592831</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566744678156</updated>
-      <workItem from="1566744679384" duration="1742000" />
-      <workItem from="1566797367652" duration="19000" />
-      <workItem from="1566826041919" duration="559000" />
+      <updated>1566826592831</updated>
+      <workItem from="1566826593993" duration="4760000" />
+      <workItem from="1566842448685" duration="3356000" />
     </task>
     <servers />
   </component>

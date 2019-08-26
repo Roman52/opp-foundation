@@ -1,4 +1,6 @@
-<?php 
+<?php
+namespace rz_core;
+
 abstract class Product {
 
 	public $name;

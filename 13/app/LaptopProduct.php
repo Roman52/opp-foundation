@@ -1,5 +1,10 @@
 <?php
 
+namespace app;
+
+use rz_core\interfaces\IGadget;
+use rz_core\Product;
+
 class LaptopProduct extends Product implements IGadget {
 	public $cpu;
 
