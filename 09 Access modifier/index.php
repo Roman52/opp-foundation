@@ -1,6 +1,6 @@
 <?php 
 /*
-урок №9 Модификаторы доступа 
+урок №9 Модификаторы доступа (область видимости)
 
 Мы расширили класс Product классом BookProduct (class BookProduct extends Product) также мы можем и далее по цепочке расширять BookProduct и другими классами (class BookProduct1 extends BookProduct) и т.д.
 

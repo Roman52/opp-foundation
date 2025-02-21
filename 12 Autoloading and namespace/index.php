@@ -48,7 +48,7 @@ $laptop = new LaptopProduct('Macbook', 3000);
 Если посмотреть на путь в автозагрузчике то увидим G:\OpenServer\OSPanel\domains\php.loc\12/classes\BookProduct.php - разные слэши.
 Винде по фиг она работает с обоими видами слешей в пути, а вот линукс требует \ обратный слеш обязательно.
 
- Поэтому в функции автозагрузки нужно заюзать замену php.loc\12/classes\BookProduct.php на php.loc\12/classes/BookProduct.php. Для этого юзаем $class = str_replace("\\", '/', $class); в функции автозагрузки.
+Поэтому в функции автозагрузки нужно заюзать замену php.loc\12/classes\BookProduct.php на php.loc\12/classes/BookProduct.php. Для этого юзаем $class = str_replace("\\", '/', $class); в функции автозагрузки.
 
 */
 
